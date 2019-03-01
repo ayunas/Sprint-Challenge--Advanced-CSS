@@ -180,6 +180,10 @@ header.navigation nav a {
   text-decoration: none;
   color: black;
 }
+header.navigation nav a:hover {
+  transform: scale(1.4);
+  color: darkblue;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
