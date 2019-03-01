@@ -160,6 +160,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header.navigation {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #f4f4f4;
+}
+header.navigation h1 {
+  padding: 0 15px 15px 15px;
+  font-size: 30px;
+}
+header.navigation nav a {
+  margin: 15px;
+  font-size: 14px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
