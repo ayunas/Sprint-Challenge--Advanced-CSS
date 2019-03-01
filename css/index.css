@@ -175,10 +175,12 @@ header.navigation nav {
   padding-bottom: 10px;
 }
 header.navigation nav a {
+  display: inline-block;
   margin: 15px;
   font-size: 14px;
   text-decoration: none;
   color: black;
+  transition: transform 0.8s;
 }
 header.navigation nav a:hover {
   transform: scale(1.4);
@@ -288,6 +290,8 @@ footer {
     background-color: #000025;
   }
   .home .walk .walk-text .btn:hover {
+    width: 100%;
+    padding: 20px;
     background-color: white;
     color: darkblue;
   }
