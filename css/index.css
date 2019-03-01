@@ -161,10 +161,11 @@ p {
   margin: 0 auto;
 }
 header.navigation {
-  display: block;
   text-align: center;
   padding-top: 15px;
   background-color: #f4f4f4;
+  position: fixed;
+  width: 100%;
 }
 header.navigation h1 {
   padding: 0 15px 15px 15px;
