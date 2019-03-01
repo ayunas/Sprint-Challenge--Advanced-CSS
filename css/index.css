@@ -170,9 +170,14 @@ header.navigation h1 {
   padding: 0 15px 15px 15px;
   font-size: 30px;
 }
+header.navigation nav {
+  padding-bottom: 10px;
+}
 header.navigation nav a {
   margin: 15px;
   font-size: 14px;
+  text-decoration: none;
+  color: black;
 }
 footer {
   color: #22283B;
