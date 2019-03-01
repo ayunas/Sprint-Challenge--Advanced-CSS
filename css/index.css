@@ -272,6 +272,13 @@ footer {
   padding: 6px;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px;
+    background-color: #000025;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
