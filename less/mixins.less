@@ -1,11 +1,18 @@
 // Mixins Here
 
-.sign-up-btn(@btn-color) {
+.sign-up-btn(@btn-color,@txt-color) {
       font-size: 16px;
-      color: white;
+      color: @txt-color;
       background-color: @btn-color;
       border-radius: 5px;
       width: 75px;
       padding: 6px;
       text-align: center;
+}
+
+.a-navs(@nav-color) {
+    margin: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: @nav-color;
 }
