@@ -92,10 +92,20 @@
       .btn {
           .sign-up-btn(black,white);
           
-          @media @mobile {
+          &:hover {
+                background-color: white;
+                color: black;
+          }
+          
+           @media @mobile {
              width:100%;
              padding: 20px;
              background-color: darken(darkblue,20%);
+             
+              &:hover {
+                  background-color: white;
+                  color: darkblue;
+              }
           }
           
         }

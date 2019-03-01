@@ -272,11 +272,19 @@ footer {
   padding: 6px;
   text-align: center;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: black;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
     padding: 20px;
     background-color: #000025;
+  }
+  .home .walk .walk-text .btn:hover {
+    background-color: white;
+    color: darkblue;
   }
 }
 .home .walk .walk-img {
