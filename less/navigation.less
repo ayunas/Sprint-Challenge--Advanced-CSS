@@ -1,1 +1,31 @@
 // Navigation code here
+header.navigation {
+   
+    text-align: center;
+    padding-top: 15px;
+    background-color: lighten(lightgray, 13%);
+    position:fixed;
+    width: 100%;
+    
+    h1 {
+        padding: 0 15px 15px 15px;
+        font-size: 30px;
+    }
+    
+    nav {
+        padding-bottom: 10px;
+        
+        a {
+            display:inline-block;
+            .a-navs(black);
+            transition: transform .8s;
+            &:hover {
+                transform: scale(1.4);
+                color: darkblue;
+            }
+        }
+        
+    }
+    
+}
+

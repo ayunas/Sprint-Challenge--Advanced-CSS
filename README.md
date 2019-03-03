@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    Adaptive Websites can adjust the content for different sized viewport, but only at fixed positions.  When the size reaches a set width, the design layout "snaps" to a new design.  
+    Responsive designs also adjust for different sizes, however, the change is more fluid and doesn't have set snapping points.
 
 2. Describe what it means to be mobile first vs desktop first.
+    Mobile first is essentially designing for a mobile screen fundamentally.  Then setting media queries to have min-widths as conditions for larger desktop and tablet designs. 
+    Desktop first is the opposite.  Design for the desktop, and then set media queries with max-width points as conditional formatting.  
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    It allows us to easily work with rem units.  Because the default font-size in the browser is 16px, setting that to 62.5% = 10px.  And since rems are based on the font size in the html root element, that means that 1rem = 10px and 1.5rem = 15px, etc.  It's easier to work with.  
 
 4. How would you describe preprocessing to someone new to CSS?
+    Preprocessing allows you to write more sophisticated CSS by allowing for variables and nesting of classes within classes and passing in variables, and even built in functions to the preprocessor.  Then after you write your css in the preprocessor, it compiles and formats for plain css.  It allows you to do more with css and write more extensive css styling.  
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    I like nesting and variables. I dislike the fact that you have so mnay files to keep track of.  It makes the job more complex.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
